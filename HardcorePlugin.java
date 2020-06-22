@@ -29,7 +29,7 @@ public class HardcorePlugin extends JavaPlugin implements Listener {
         getLogger().info("oof: " + p + " did this. " + event.getDeathMessage());
         regenWorlds();
         for (Player pp : this.getServer().getOnlinePlayers()) {
-            pp.kickPlayer(p.getName() + "did this");
+            pp.kickPlayer(p.getName() + "did this." + event.getDeathMessage());
         }
         p.kickPlayer("get FRICKED");
     }
