@@ -1,5 +1,16 @@
 name: HardcorePlugin
-main: org.distanthills.hardcore.HardcorePlugin
-version: "0.0.2-get fucked"
-load: STARTUP
+main: org.distanthills.hardcore.Main
+version: "1.0"
+load: POSTWORLD
 api-version: 1.15
+commands:
+  hardcoreplugin:
+    aliases:
+      - hardcore
+      - hp
+    description: Get infomation from this plugin
+    usage:
+      - hardcoreplugin [hazard] [on/off]
+      - Use the command alone to get a list
+
+

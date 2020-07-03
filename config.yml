@@ -1,0 +1,28 @@
+enabledHazards:
+  #Descriptions found in game e.g. /hardcoreplugin hazard
+  #players coom on touch
+  coomer:
+    enabled: false
+  #enemies explode
+  boomer:
+    enabled: false
+    #4 is tnt level
+    explosionPower: 4
+    setFire: true
+    breakBlocks: false
+    #everything does 2x damage
+  powerful:
+    enabled: false
+    damageModifier: 2
+  #do 3x dmg for 1/3 hp, where 20 is max hp
+  glasscannon:
+    enabled: false
+    maxHealth: 7
+    damageModifier: 3
+  #beds explode
+  nosleep:
+    enabled: false
+    explosionPower: 4
+
+
+
